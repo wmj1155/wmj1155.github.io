@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-25T13:09:37.333Z</updated>
+  <updated>2018-05-09T13:25:05.945Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/04/25/hello-world/"/>
-    <id>http://yoursite.com/2018/04/25/hello-world/</id>
-    <published>2018-04-25T13:09:37.204Z</published>
-    <updated>2018-04-25T13:09:37.333Z</updated>
+    <title>hello-word</title>
+    <link href="http://yoursite.com/2018/05/09/hello-word/"/>
+    <id>http://yoursite.com/2018/05/09/hello-word/</id>
+    <published>2018-05-09T13:24:27.288Z</published>
+    <updated>2018-05-09T13:25:05.945Z</updated>
     
     <summary type="html">
     
@@ -36,14 +36,16 @@
     </summary>
     
     
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
   </entry>
   
   <entry>
-    <title>vue axios.post传输formdata</title>
-    <link href="http://yoursite.com/2018/04/09/vue-axios-post%E4%BC%A0%E8%BE%93formdata/"/>
-    <id>http://yoursite.com/2018/04/09/vue-axios-post传输formdata/</id>
+    <title>vue-axios传输formdata</title>
+    <link href="http://yoursite.com/2018/04/09/vue-axios%E4%BC%A0%E8%BE%93formdata/"/>
+    <id>http://yoursite.com/2018/04/09/vue-axios传输formdata/</id>
     <published>2018-04-09T02:54:07.000Z</published>
-    <updated>2018-05-09T12:52:44.878Z</updated>
+    <updated>2018-05-09T13:26:17.734Z</updated>
     
     <summary type="html">
     
@@ -60,14 +62,16 @@
     </summary>
     
     
+      <category term="vue" scheme="http://yoursite.com/tags/vue/"/>
+    
   </entry>
   
   <entry>
-    <title>webpack打包js和css</title>
-    <link href="http://yoursite.com/2018/03/21/webpack%E6%89%93%E5%8C%85js%E5%92%8Ccss/"/>
-    <id>http://yoursite.com/2018/03/21/webpack打包js和css/</id>
+    <title>webpach打包</title>
+    <link href="http://yoursite.com/2018/03/21/webpach%E6%89%93%E5%8C%85/"/>
+    <id>http://yoursite.com/2018/03/21/webpach打包/</id>
     <published>2018-03-21T02:14:49.000Z</published>
-    <updated>2018-05-09T12:52:25.648Z</updated>
+    <updated>2018-05-09T13:27:42.182Z</updated>
     
     <summary type="html">
     
@@ -82,14 +86,16 @@
     </summary>
     
     
+      <category term="webpack" scheme="http://yoursite.com/tags/webpack/"/>
+    
   </entry>
   
   <entry>
-    <title>hexo+github搭建个人博客</title>
+    <title>hexo搭建个人博客</title>
     <link href="http://yoursite.com/2018/03/16/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2018/03/16/hexo搭建个人博客/</id>
     <published>2018-03-16T03:27:58.000Z</published>
-    <updated>2018-05-09T12:52:41.418Z</updated>
+    <updated>2018-05-09T13:16:34.187Z</updated>
     
     <summary type="html">
     
@@ -104,6 +110,8 @@
     </summary>
     
     
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
   </entry>
   
   <entry>
@@ -111,7 +119,7 @@
     <link href="http://yoursite.com/2017/08/08/ajax%E8%AF%B7%E6%B1%82%E6%88%90%E5%8A%9F%E4%BD%86%E8%BF%9B%E5%85%A5error/"/>
     <id>http://yoursite.com/2017/08/08/ajax请求成功但进入error/</id>
     <published>2017-08-08T01:15:08.000Z</published>
-    <updated>2018-05-09T12:52:30.428Z</updated>
+    <updated>2018-05-09T13:23:51.891Z</updated>
     
     <summary type="html">
     
@@ -119,13 +127,16 @@
       
         
         
-          &lt;p&gt;又是一个老生常谈的问题啦，ajax老爷大大~&lt;/p&gt;
+          &lt;p&gt;首次编辑在博客园，现在搬新家啦哈哈((＾－＾)V)&lt;/p&gt;
+&lt;p&gt;又是一个老生常谈的问题啦，ajax老爷大大~()&lt;/p&gt;
 &lt;h3 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
+    
+      <category term="ajax,jquery" scheme="http://yoursite.com/tags/ajax-jquery/"/>
     
   </entry>
   

@@ -1,0 +1,11 @@
+.post-header,
+.post-tags {
+  text-align: center;
+}
+.main .main-container .content .index-post {
+  padding: 1em;
+  margin: 0.5em;
+}
+#sidebar {
+  background: url("/images/sidebar_background.png");
+}
