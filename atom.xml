@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-25T13:43:33.819Z</updated>
+  <updated>2018-04-25T13:09:37.333Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,45 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>111</title>
-    <link href="http://yoursite.com/2018/04/25/111/"/>
-    <id>http://yoursite.com/2018/04/25/111/</id>
-    <published>2018-04-25T13:42:41.000Z</published>
-    <updated>2018-04-25T13:43:33.819Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;ceshi&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-      <category term="11" scheme="http://yoursite.com/tags/11/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2018/04/25/test/"/>
-    <id>http://yoursite.com/2018/04/25/test/</id>
-    <published>2018-04-25T13:35:08.000Z</published>
-    <updated>2018-04-25T13:35:08.710Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -69,6 +30,97 @@
         
         
           &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>vue axios.post传输formdata</title>
+    <link href="http://yoursite.com/2018/04/09/vue-axios-post%E4%BC%A0%E8%BE%93formdata/"/>
+    <id>http://yoursite.com/2018/04/09/vue-axios-post传输formdata/</id>
+    <published>2018-04-09T02:54:07.000Z</published>
+    <updated>2018-05-09T12:52:44.878Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近在做项目的时候遇到了一个新鲜玩意儿:qs库&lt;/p&gt;
+&lt;p&gt;这次的项目是用vue框架来写的，所以在请求后台这种上也就采用了axios,毕竟推荐使用嘛哈哈~&lt;/p&gt;
+&lt;p&gt;之前做着玩的那种都用的get请求，现在项目中有很多都是post方法，发现给后台传参数的时候一直都接受不
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>webpack打包js和css</title>
+    <link href="http://yoursite.com/2018/03/21/webpack%E6%89%93%E5%8C%85js%E5%92%8Ccss/"/>
+    <id>http://yoursite.com/2018/03/21/webpack打包js和css/</id>
+    <published>2018-03-21T02:14:49.000Z</published>
+    <updated>2018-05-09T12:52:25.648Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;使用webpack工具打包js和css文件&quot;&gt;&lt;a href=&quot;#使用webpack工具打包js和css文件&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo+github搭建个人博客</title>
+    <link href="http://yoursite.com/2018/03/16/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2018/03/16/hexo搭建个人博客/</id>
+    <published>2018-03-16T03:27:58.000Z</published>
+    <updated>2018-05-09T12:52:41.418Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;利用hexo-github搭建属于自己的博客家园&quot;&gt;&lt;a href=&quot;#利用hexo-github搭建属于自己的博客家园&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ajax请求成功但进入error</title>
+    <link href="http://yoursite.com/2017/08/08/ajax%E8%AF%B7%E6%B1%82%E6%88%90%E5%8A%9F%E4%BD%86%E8%BF%9B%E5%85%A5error/"/>
+    <id>http://yoursite.com/2017/08/08/ajax请求成功但进入error/</id>
+    <published>2017-08-08T01:15:08.000Z</published>
+    <updated>2018-05-09T12:52:30.428Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;又是一个老生常谈的问题啦，ajax老爷大大~&lt;/p&gt;
+&lt;h3 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot;
         
       
     
