@@ -76,7 +76,7 @@
     <script defer type="text/javascript" src="/js/index.js"></script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
-    <title>ajax请求成功但进入error | 丸子EM - 一只前行的程序猿</title>
+    <title>快速完成五星评级功能 | 丸子EM - 一只前行的程序猿</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="default"  data-spy="scroll" data-target=".list-group">
     
@@ -123,7 +123,7 @@
   
   <article class="post-container card  animate" itemscope itemtype="http://schema.org/Article">
     <div class="post-block">
-      <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/08/ajax请求成功但进入error/">
+      <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/17/快速完成五星评级功能/">
       <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
        <meta itemprop="name" content="wmj">
        <meta itemprop="description" content="">
@@ -135,12 +135,12 @@
     </div>
     <header class="post-header">
       <h1 class="post-title" itemprop="name headline">
-       <span class="">ajax请求成功但进入error</span>
+       <span class="">快速完成五星评级功能</span>
       </h1>
       <div class="post-meta">
         
         <span class="post-date">
-          <i class="far fa-calendar-plus"></i> <time title="post-date" itemprop="dateCreated datePublished" datetime="2017-08-08T09:15:08+08:00">2017-08-08</time>
+          <i class="far fa-calendar-plus"></i> <time title="post-date" itemprop="dateCreated datePublished" datetime="2017-10-17T09:40:15+08:00">2017-10-17</time>
         </span>
         
         
@@ -150,20 +150,19 @@
         <span class="post-meta-divider"> | </span>
         
         <span class="post-comment-count">
-          <i class="far fa-comments"></i> <a href="/2017/08/08/ajax请求成功但进入error/#comments" itemprop="discussionUrl"><span class="post-comment-count hc-comment-count" data-xid="2017/08/08/ajax请求成功但进入error/" itemprop="commentsCount"></span></a>
+          <i class="far fa-comments"></i> <a href="/2017/10/17/快速完成五星评级功能/#comments" itemprop="discussionUrl"><span class="post-comment-count hc-comment-count" data-xid="2017/10/17/快速完成五星评级功能/" itemprop="commentsCount"></span></a>
         </span>
         
         
       </div>
     </header>
     <main class="post-body" itemprop="articleBody">
-      <p>首次编辑在博客园，现在搬新家啦哈哈((＾－＾)V)</p>
-<p>又是一个老生常谈的问题啦，ajax老爷大大~()</p>
-<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>在用jq的ajax请求后端接口时数据有返回，但是却进入了error是咋回事呢？</p>
-<p>先来看一个正常的请求格式:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">$.ajax(&#123;</span><br><span class="line">url:&apos;&apos;,</span><br><span class="line">timeout:12000,</span><br><span class="line">dataType:&apos;json&apos;,</span><br><span class="line">success:function(data)&#123;</span><br><span class="line">  console.log(data);</span><br><span class="line">&#125;,</span><br><span class="line">error:function(e)&#123;</span><br><span class="line">  console.log(e);</span><br><span class="line">&#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-<p>​     上面的代码块就是我们通常用ajax请求接口的写法，当存在跨域并且后端支持跨域时把dataType写成’jsonp’就可以了。</p>
-<p>​      但是有时候你会发现请求状态是200，但还是进入了error,这个时候就需要查看并确认后台的回调函数是否为默认的callback函数名，如果不是就需要在加入一个自定义回调函数名的参数，jsonp:’重写回调函数的名字’</p>
+      <p>最近逛博客，看到一串有趣的字符串，虽然简单，但是却可以完成一个大大的功能~我们经常会遇到做一些评级的功能，比如五星之类的，想实现起来之前只能靠一些图片，现在就来看看简单的方法</p>
+<p>etc:</p>
+<p>直接手动在console里面复制上面的字符串，然后用slice方法切割</p>
+<p><img src="data:image/png;base64,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" alt=""></p>
+<p>这样就可以快速完成一个2星的评分，也可以试着把其中的2换成你想要得到的等级哦~</p>
+<p>并且如果你想要更换星星的颜色，只要修改color即可，不过这个小技巧的一个缺点是只能达到整数值的评分效果，如果想要有4.3,4.9这种还是需要用到图片算宽度哦~</p>
 
     </main>
     <footer class="post-footer">
@@ -176,7 +175,7 @@
         
         
         
-        <a class="post-tag button" href="/tags/ajax-jquery/" style="background: #fc6423" rel="tag"><i class="fas fa-tags"></i> ajax,jquery</a>
+        <a class="post-tag button" href="/tags/javasccript/" style="background: #fc6423" rel="tag"><i class="fas fa-tags"></i> javasccript</a>
         
         
       </div>
@@ -210,10 +209,17 @@
   
   <div class="post-nav">
     
+    <div class="post-nav-next post-nav-item">
+      <a href="/2017/08/08/ajax请求成功但进入error/" rel="next" title="ajax请求成功但进入error">
+        <i class="fas fa-angle-left"></i>
+        <span class="nav-title">ajax请求成功但进入error</span>
+      </a>
+    </div>
+    
     
     <div class="post-nav-prev post-nav-item">
-      <a href="/2017/10/17/快速完成五星评级功能/" rel="prev" title="快速完成五星评级功能">
-        <span class="nav-title">快速完成五星评级功能</span>
+      <a href="/2018/03/16/hexo搭建个人博客/" rel="prev" title="hexo搭建个人博客">
+        <span class="nav-title">hexo搭建个人博客</span>
         <i class="fas fa-angle-right"></i>
       </a>
     </div>
@@ -232,7 +238,7 @@
   _hcwp = window._hcwp || [];
   _hcwp.push({ "widget": "Bloggerstream", "widget_id": "wmj1155", "selector": ".hc-comment-count", "label": "{\%COUNT%\}" });
   
-  _hcwp.push({ "widget": "Stream", "widget_id": "wmj1155", "xid": "2017/08/08/ajax请求成功但进入error/" });
+  _hcwp.push({ "widget": "Stream", "widget_id": "wmj1155", "xid": "2017/10/17/快速完成五星评级功能/" });
   
   (function() {
     if ("HC_LOAD_INIT" in window) {
@@ -295,12 +301,6 @@
 
 
 
-
-<hr>
-<div class="post-toc sidebar-item" id="toc-div">
-  <p><i class="fas fa-list-ol"></i> Table of Contents</p>
-  <div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#问题"><span class="toc-text">问题</span></a></li></ol></div>
-</div>
 
 
 

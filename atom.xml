@@ -115,6 +115,32 @@
   </entry>
   
   <entry>
+    <title>快速完成五星评级功能</title>
+    <link href="http://yoursite.com/2017/10/17/%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90%E4%BA%94%E6%98%9F%E8%AF%84%E7%BA%A7%E5%8A%9F%E8%83%BD/"/>
+    <id>http://yoursite.com/2017/10/17/快速完成五星评级功能/</id>
+    <published>2017-10-17T01:40:15.000Z</published>
+    <updated>2018-05-26T02:34:52.431Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近逛博客，看到一串有趣的字符串，虽然简单，但是却可以完成一个大大的功能~我们经常会遇到做一些评级的功能，比如五星之类的，想实现起来之前只能靠一些图片，现在就来看看简单的方法&lt;/p&gt;
+&lt;p&gt;etc:&lt;/p&gt;
+&lt;p&gt;直接手动在console里面复制上面的字符串，然后用slic
+        
+      
+    
+    </summary>
+    
+    
+      <category term="javasccript" scheme="http://yoursite.com/tags/javasccript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ajax请求成功但进入error</title>
     <link href="http://yoursite.com/2017/08/08/ajax%E8%AF%B7%E6%B1%82%E6%88%90%E5%8A%9F%E4%BD%86%E8%BF%9B%E5%85%A5error/"/>
     <id>http://yoursite.com/2017/08/08/ajax请求成功但进入error/</id>
